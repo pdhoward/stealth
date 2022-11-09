@@ -15,41 +15,9 @@ function Navbar(props) {
               Home
             </a>
           </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">
-              About
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="services.html" class="nav-link">
-              Services
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="projects.html" class="nav-link">
-              Projects
-            </a>
-          </li>
-          <li class="nav-item" id="dropdown-toggle">
-            <a href="#" class="nav-link">
-              Pages <i class="fa-solid fa-caret-up"></i>
-            </a>
-            <div class="dropdown">
-              <a href="faq.html" class="dd-link">
-                FAQ
-              </a>
-              <a href="our-team.html" class="dd-link">
-                Our Team
-              </a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a href="contacts.html" class="nav-link">
-              Contact
-            </a>
-          </li>
+          
           <a href="#" class="btn btn-dark header-btn px-5">
-            Let's Talk
+            Request Early Access
             <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
           </a>
         </ul>
@@ -86,33 +54,9 @@ function Navbar(props) {
                 Home
               </a>
             </li>
-            <li class="mobile-nav-item">
-              <a href="about.html" class="nav-link">
-                About
-              </a>
-            </li>
-            <li class="mobile-nav-item">
-              <a href="services.html" class="nav-link">
-                Services
-              </a>
-            </li>
-            <li class="mobile-nav-item">
-              <a href="projects.html" class="nav-link">
-                Projects
-              </a>
-            </li>
-            <li class="mobile-nav-item">
-              <a href="#" class="nav-link">
-                Pages
-              </a>
-            </li>
-            <li class="mobile-nav-item">
-              <a href="contacts.html" class="nav-link">
-                Contact
-              </a>
-            </li>
+           
             <a href="#" class="btn btn-dark mobile-btn px-5">
-              Let's Talk
+              Request Early Access
               <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
             </a>
           </div>
