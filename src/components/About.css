@@ -14,13 +14,24 @@
   left: 100px;
 }
 
+.about-list-item {  
+  color: #fff; 
+}
+
 .about-right {
   max-width: 450px;
 }
 
+.title {
+  color: #fff;
+}
+
+.subtitle {
+  color: #fff;
+}
 
 .about-text {
-  color: #787878;
+  color: #fff;
   font-size: 18px;
   line-height: 30px;
 }

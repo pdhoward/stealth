@@ -18,27 +18,17 @@ function About(props) {
              
             </div>
             <div className="about-right col-md-6 col-12 mx-auto">
-              <p className="subtitle">About us</p>
+              <p className="subtitle">Our mission</p>
               <h2 className="title">
-                We bring the power of data science & ai to business
+                We bring the power of data science & ai to legacy systems
               </h2>
               <p className="about-text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                eaque sunt nostrum aliquam labore modi quod impedit velit dicta
-                totam.
+                The power of software in running the modern enterprise is well understood. 
+                It permeates every operation of an organization. Yet, over time, legacy systems become dated, unresponsive
+                and difficult to maintain, impeding rather than propelling business performance. Leveraging the power of AI
+                for modernizing systems with precision and efficiency is our mission.
               </p>
-              <p className="about-list-item">
-                <i className="fa fa-check-circle" aria-hidden="true"></i>
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-              <p className="about-list-item">
-                <i className="fa fa-check-circle" aria-hidden="true"></i>
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
-              <p className="about-list-item">
-                <i className="fa fa-check-circle" aria-hidden="true"></i>
-                Lorem ipsum dolor sit amet consectetur.
-              </p>
+             
               <a
                 href="#"
                 className="pri-btn btn-dark"
