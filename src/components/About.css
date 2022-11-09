@@ -1,36 +1,23 @@
 /* About section */
+
+.about-section {
+  background-color: rgba(0.0, 0.0, 0.0, 1.0);
+}
 .about-left {
   position: relative;
 }
 .about-img-1 {
-  width: 400px;
-  height: 400px;
-  border-radius: 50%;
-  position: absolute;
-  left: 30%;
+  width: 300px;
+  height: 300px;  
+  position: initial;
+  top: 100px;
+  left: 100px;
 }
 
 .about-right {
   max-width: 450px;
 }
 
-.about-img-2 {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 0;
-  left: 10%;
-}
-
-.about-img-3 {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  position: absolute;
-  top: 30%;
-  left: 0;
-}
 
 .about-text {
   color: #787878;
@@ -50,8 +37,7 @@
 
 /* Media Queries */
 @media screen and (max-width: 1200px) {
-  .about-img-1 {
-    border-radius: 0;
+  .about-img-1 {    
     position: initial;
     width: 100%;
     height: auto;
