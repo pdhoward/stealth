@@ -1,0 +1,43 @@
+/* Case studies */
+.case-study {
+  background-color: #f4f7fe;
+}
+
+.cs-card {
+  border-radius: 20px;
+  width: 350px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.cs-content {
+  position: absolute;
+  bottom: 10px;
+}
+
+.cs-card i {
+  font-size: 32px;
+}
+
+.cs-card i:hover {
+  color: #1153c1;
+  cursor: pointer;
+}
+
+.cs-category {
+  font-size: 17px;
+  color: #fff;
+  padding: 5px 20px;
+  background-color: #222;
+  opacity: 0.4;
+  border-radius: 20px;
+}
+
+.cs-category-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}

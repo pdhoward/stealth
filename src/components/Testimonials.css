@@ -1,0 +1,27 @@
+/* Testimony */
+.testimonials {
+  padding: 100px 0px;
+}
+
+.testimony i {
+  font-size: 64px;
+  color: #2c368b;
+  margin-bottom: 20px;
+}
+
+.test-author {
+  color: #1153c1;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.testimony-title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.testimonial-text {
+  font-size: 20px;
+  font-weight: 600;
+  color: #787878;
+}

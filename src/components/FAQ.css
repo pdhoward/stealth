@@ -1,0 +1,19 @@
+/* FAQS */
+.faqs {
+  background-color: #f4f7fe;
+  padding: 100px 0;
+}
+
+.faq {
+  width: 600px;
+}
+
+.accordion-button {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.accordion-item {
+  border-radius: 40px;
+  margin-bottom: 20px;
+}
