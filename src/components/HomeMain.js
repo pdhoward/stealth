@@ -5,8 +5,7 @@ import About from "./About";
 function HomeMain(props) {
   return (
     <>      
-      <About />      
-    
+      <About /> 
     </>
   );
 }

@@ -12,7 +12,7 @@ function About(props) {
           <div className="about-wrapper row">
             <div className="about-left col-md-4 col-12 mx-auto">
               <img 
-                src='https://res.cloudinary.com/stratmachine/image/upload/v1654372190/abstracts/Analytics_Abstract_Spot_Icon_ea3hh0.png' alt="" 
+                src='https://res.cloudinary.com/stratmachine/image/upload/v1668023498/ai_hmkv5d.gif' alt="" 
                 className="img-fluid about-img-1"                 
                 />
              
