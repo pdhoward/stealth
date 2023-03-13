@@ -1,15 +1,8 @@
-
-
-import {Hero} from "@/components/Hero";
-import {HomeMain} from "@/components/HomeMain";
-import { Footer } from "@/components/Footer";
-import { Navbar } from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import HomeMain from "@/components/HomeMain";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import Head from "next/head";
-import Image from "next/image";
-
-//import "./App.css";
-
-//import hero from "./hero-ai.png";
 
 export default function Home(){
   return (
@@ -32,7 +25,7 @@ export default function Home(){
 
       <div className="flex flex-col h-screen bg-black">
         <Navbar />
-        <Hero hero={hero} />
+        <Hero />
         
         <HomeMain />
     

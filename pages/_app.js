@@ -1,5 +1,8 @@
 import "@/styles/globals.css";
-import '@/styles/chat.css'
+import '@/styles/app.css'
+import '@/styles/hero.css'
+import '@/styles/footer.css'
+import '@/styles/about.css'
 import { Inter } from "@next/font/google";
 
 

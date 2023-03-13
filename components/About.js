@@ -1,8 +1,5 @@
 import React from "react";
-import "./About.css";
-// import Image1 from "../assets/images/3J7A2842.avif";
-// import Image2 from "../assets/images/RobotArm_AI_Processor.avif";
-// import Image3 from "../assets/images/3J7A2910.avif";
+
 
 function About(props) {
   return (
@@ -31,8 +28,7 @@ function About(props) {
              
               <a
                 href="#"
-                className="pri-btn btn-dark"
-                styleName="max-width: 300px"
+                className="pri-btn btn-dark max-width: 300px"                
               >
                 Discover more
                 <i className="fa fa-arrow-circle-right" aria-hidden="true"></i>

@@ -1,14 +1,14 @@
 import React from "react";
-import "./Hero.css";
+import Image from 'next/image'
 
-function Hero(props) {
+function Hero() {
   return (
     <div className="container">
       <div className="hero row">
         <div className="hero-left col-md-6 col-12 mx-auto mb-4">
           <div className="hero-content-wrapper">
             <h6 className="hero-sub">AI meets modern </h6>
-            <h2 className="hero-heading" styleName="font-size: 3vw">
+            <h2 className="hero-heading font-size: 3vw" >
               Stealth Mode
             </h2>
             <p className="hero-content">
@@ -22,7 +22,7 @@ function Hero(props) {
           </div>
         </div>
         <div className="hero-right col-md-6 col-12 mx-auto mb-4">
-          <img src={props.hero} alt="" className="img-fluid hero-img" />
+          <Image className="img-fluid hero-img" src="/hero-ai.png" alt="hero" width="64" height="64" />          
         </div>
       </div>
     </div>
