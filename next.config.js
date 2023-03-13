@@ -2,6 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
+    domains: ["res.cloudinary.com"], 
+    formats: ["image/avif", "image/webp"],
     remotePatterns: [
       {
         protocol: "https",

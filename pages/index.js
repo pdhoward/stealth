@@ -24,8 +24,10 @@ export default function Home(){
       </Head>
 
       <div className="flex flex-col h-screen bg-black">
-        <Navbar />
-        <Hero />
+        <header>
+        
+          <Hero />
+        </header> 
         
         <HomeMain />
     

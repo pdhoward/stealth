@@ -1,5 +1,6 @@
 import React from "react";
-
+import Image from 'next/image'
+import ai from "../public/ai.gif";
 
 function About(props) {
   return (
@@ -8,10 +9,10 @@ function About(props) {
         <div className="container">
           <div className="about-wrapper row">
             <div className="about-left col-md-4 col-12 mx-auto">
-              <img 
-                src='https://res.cloudinary.com/stratmachine/image/upload/v1668023498/ai_hmkv5d.gif' alt="" 
-                className="img-fluid about-img-1"                 
-                />
+            <Image 
+              className="block h-40 w-auto"       
+              src={ai} 
+              alt="ai"  />
              
             </div>
             <div className="about-right col-md-6 col-12 mx-auto">

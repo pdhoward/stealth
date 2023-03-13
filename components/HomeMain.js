@@ -2,7 +2,7 @@ import React from "react";
 import About from "./About";
 
 
-function HomeMain(props) {
+function HomeMain() {
   return (
     <>      
       <About /> 
